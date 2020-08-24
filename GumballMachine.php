@@ -3,7 +3,7 @@
 
 
 class GumballMachine {
-	private $gumaballs;
+	private $gumballs;
 
 
 	// Get the amount of gumballs still in the machine
@@ -18,7 +18,7 @@ class GumballMachine {
 
 	// The userr turns the whell, machine dispenses gumball!
 	public function turnWhell(){
-		$this->setGumballs($this->getGumballs());
+		$this->setGumballs($this->getGumballs() - 1);
 	}
 
 }
