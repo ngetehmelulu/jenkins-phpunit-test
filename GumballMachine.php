@@ -1,9 +1,7 @@
 <?php
 
-
-
 class GumballMachine {
-	private $gumaballs;
+	private $gumballs;
 
 
 	// Get the amount of gumballs still in the machine
